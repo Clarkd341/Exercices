@@ -1,0 +1,48 @@
+body {
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(86, 86, 202);
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   margin-left: 90px;
+     width: 80%;
+     height: 60px;
+
+    }
+
+ .blabla {
+    display: flex;
+background-color: red;
+color: white;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+justify-content: space-around;
+width: 78%;
+margin-top: 20px;
+margin-left: 100px;
+ }
+
+ .section {
+
+    background-color: rgb(101, 150, 27);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   margin-left: 4%;
+    width: 90%;
+    height: 400px;
+}
+
+
+.video {
+
+    background-color: grey;
+}
+
+.texte {
+
+  background-color: grey;
+}

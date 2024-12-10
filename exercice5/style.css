@@ -1,0 +1,84 @@
+#main {
+    border: 3px solid rgb(209, 52, 220);
+    height: 100vh;
+    font-size: 20px;
+}
+
+.container {
+
+    border: 3px solid rgb(206, 0, 0);
+    width: 50%;
+    height: 85%;
+    padding: 3px;
+    margin: 25px;
+    margin-left: 30%;
+}
+
+#header {
+
+    border: 4px solid rgb(186, 236, 4);
+    height:  19%;
+    margin: 7px;
+}
+
+
+
+#content{
+
+    border: 4px solid rgb(85, 209, 13);
+    width: 443px;
+    height: 443px;
+    margin-right: 1px;
+    margin-left: 2px;
+
+
+    
+    
+}
+#news {
+
+    border: 3px solid rgb(26, 10, 199);
+    align-items: flex-end;
+    position: absolute;
+    margin-left: 3px;
+    bottom: 11%;
+    height: 20%;
+    width: 20%;
+    
+}
+
+#sidebar {
+    border: 3px solid rgb(192, 151, 4);
+    height: 443px;
+    
+}
+
+.content-sidebar-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#subscribe, #popular, #contributors {
+    border: 3px solid rgb(151, 8, 161);
+    justify-content: center;
+    align-content: center;
+    margin: 4px;
+    height: 20%;
+
+} 
+
+#footer {
+    font-size: 20px;
+    border: 2px solid aqua;
+    margin: 10px auto;
+    width: 90%;
+    height: 90%;
+    color: aqua;
+    background-color: grey;
+}
+
+#footer>.container {
+
+    border-color: rgb(135, 255, 23);
+    color: green;
+}

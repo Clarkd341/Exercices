@@ -1,0 +1,54 @@
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+}
+
+.haut {
+    background-color: darkcyan;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100px;
+    position: relative;
+}
+
+
+.menu {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100px;
+    position: relative;
+    height: 60px;
+        }
+.millieu {
+
+    background-color: yellow; 
+    width: 90%; 
+    height: 32em; 
+    margin: 20px auto; 
+    display: flex; 
+    margin-bottom: 40px;
+       
+        }
+
+.millieu p {
+      margin: 0;
+}
+
+.bas {
+
+    background-color: darkcyan;
+    padding: 18px;
+    margin-top: 7px;
+}
+
+.bas p {
+
+    margin: 0;
+}

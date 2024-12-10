@@ -1,0 +1,35 @@
+body {
+
+    font-size: 20px;
+    height: 100vh;
+}
+
+
+.haut {
+    display: flex;
+    background-color: rgb(237, 59, 59);
+    width: 100%;
+    height: 15%;
+}
+
+.container {
+ display: flex;
+height: 89%;
+}
+
+.gauche {
+    background-color : rgb(41, 133, 238);
+    align-items: stretch;
+    width: 20%;
+}
+
+.milieu {
+ background-color: lightgreen;
+ align-items: stretch;
+ width: 60%;
+}
+
+.droite {
+       background-color: brown;
+        width: 20%;
+    }

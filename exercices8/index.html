@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire</title>
+</head>
+<body>
+    <section id="container">
+        <h1>Information personnelle</h1>
+        <form action="" method="post">
+    
+            <!-- Section Civilité -->
+             <ul>
+               <li>
+                  <label for="civilite-select">Civilité*</label>
+                  <select id="civilite-select">
+                  <option value="">Faites votre choix</option>
+                  <option value="francais">Français</option>
+            </select>
+        </li>
+      </ul>     
+       <!-- Section Nom et Prénom -->
+            <ul>
+                <li>
+                    <label for="name">Nom*:</label>
+                    <input type="text" id="name" placeholder="Votre nom ici">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="prenom">Prénom*:</label>
+                    <input type="text" id="prenom" placeholder="Votre prénom ici">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="date">Date de naissance*:</label>
+                    <input type="date" id="date" value="2024-10-04" min="1980-01-01" max="2025-01-31">
+                </li>
+            </ul>
+    
+            <!-- Section Téléphone -->
+            <ul>
+                <li>
+                    <label for="fixe">Numéro de téléphone fixe:</label>
+                    <input type="tel" id="fixe">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="tel">Téléphone mobile*:</label>
+                    <input type="tel" id="tel">
+                </li>
+            </ul>
+    
+            <!-- Section Adresse -->
+            <ul>
+                <li>
+                    <label for="Numero">Numéro de rue*:</label>
+                    <input type="text" id="Numero" placeholder="N°">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="rue">Nom de rue*:</label>
+                    <input type="text" id="rue" placeholder="Nom de rue">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="postal">Code postal*:</label>
+                    <input type="text" id="postal" placeholder="Votre code postal ici">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="ville">Ville*:</label>
+                    <input type="text" id="ville" placeholder="Votre ville ici">
+                </li>
+            </ul>
+    
+            <!-- Section Identifiants -->
+            <ul>
+                <li>
+                    <label for="pseudo">Pseudo*:</label>
+                    <input type="text" id="pseudo" placeholder="Entrer votre pseudo ici">
+                </li>
+            </ul>
+            <ul>
+                <li class="password">
+                    <label for="password">Mot de passe*:</label>
+                    <input type="password" id="password" placeholder="Entrer votre mot de passe">
+                </li>
+                <input type="submit" value="Soumettre">
+                <input type="checkbox" id="souvenir" name="souvenir">
+                <label for="souvenir">Se souvenir de moi</label>
+            </ul>
+        </form>
+    </section>
+<section>
+<form action="" method="get">
+    <h1>Information complémentaire</h1>
+    <div class="dev">
+    <label  class="dev" for="niveau">Quel est votre niveau en développement</label>
+<br>
+
+<input type="radio" name="niveau" id="debutant">
+<label for="debutant">Débutant</label>
+
+<input type="radio" name="niveau" id="junior">
+<label for="junior">Junior</label>
+
+<input type="radio" name="niveau" id="expert">
+<label for="expert">Expert</label>
+</div>
+<p>Quel et votre niveau de language:</p>
+    <ul>
+      <li>
+    <label for="souvenir">html/css</label>
+    <input type="checkbox" id="htmlcss" name="htmlcss">  
+  </li>
+</ul>
+<ul>
+    <li>
+  <label for="Python">Python:</label>
+  <input type="checkbox" id="Python" name="Python">  
+</li>
+</ul>
+<ul>
+    <li>
+  <label for="PHP">PHP:</label>
+  <input type="checkbox" id="PHP" name="PHP">  
+</li>
+</ul>
+<ul>
+    <li>
+  <label for="Java">Java:</label>
+  <input type="checkbox" id="Java" name="Java">  
+</li>
+</ul>
+<ul>
+    <li>
+  <label for="NodeJS">NodeJS</label>
+  <input type="checkbox" id="NodeJS" name="NodeJS">  
+</li>
+</ul>
+<ul>
+    <li>
+  <label for="ReactJS">ReactJS</label>
+  <input type="checkbox" id="ReactJS" name="ReactJS">  
+</li>
+</ul>
+<ul>
+    <li>
+  <label for="C">C#</label>
+  <input type="checkbox" id="C" name="C">  
+</li>
+</ul>
+</form>
+ </section>
+<section>
+  <form action="" method="post">
+    <h1>Information liées a la promotion</h1>
+     <ul>
+       <li>
+       
+        <label for="promotion">promotion beweb</label>
+        <select name="promotion" id="promotion">
+            <option value="">choisir</option>
+        </select>
+        <select name="promotion" id="promotion"></select>
+  </li>
+</ul> 
+<label class="url" for="url">Merci de nous faire parvenir votre URL TD_I</label>
+<input type="url" name="url" id="url" placeholder="url">
+<p>si vous avez des questions vous pouvez nous les laisser en commentaire ci-dessous:</p>
+
+<button>envoyer</button>
+</form>
+</section>
+  </body>
+</html>
